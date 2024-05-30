@@ -1,9 +1,9 @@
 import express from 'express';
-const app = express();
+const ap_p = express();
 const port = process.env.PORT || 3000;
-app.get('/',(req,res)=>{
+ap_p.get('/',(req,res)=>{
     res.send('this is homepage')
 })
-app.listen( port ,()=>{
+ap_p.listen( port ,()=>{
     console.log('server is running at port number 3000')
 });
